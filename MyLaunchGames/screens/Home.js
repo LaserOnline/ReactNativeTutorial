@@ -22,39 +22,39 @@ const LineDivider = () => {
 const Home = ({ navigation }) => {
 
     const profileData = {
-        name: 'Username',
-        point: 200
+        name: 'LaserOnline',
+        point: 2000
     }
 
     const bookOtherWordsForHome = {
         id: 1,
-        bookName: "Other Words For Home",
-        bookCover: images.otherWordsForHome,
-        rating: 4.5,
+        bookName: "Eastward",
+        bookCover: images.Eastward,
+        rating: 7.5,
         language: "Eng",
-        pageNo: 341,
-        author: "Jasmine Warga",
+        pageNo: 1,
+        author: "Pixpil",
         genre: [
             "Romance", "Adventure", "Drama"
         ],
-        readed: "12k",
-        description: "Jude never thought she’d be leaving her beloved older brother and father behind, all the way across the ocean in Syria. But when things in her hometown start becoming volatile, Jude and her mother are sent to live in Cincinnati with relatives. At first, everything in America seems too fast and too loud. The American movies that Jude has always loved haven’t quite prepared her for starting school in the US—and her new label of 'Middle Eastern,' an identity she’s never known before. But this life also brings unexpected surprises—there are new friends, a whole new family, and a school musical that Jude might just try out for. Maybe America, too, is a place where Jude can be seen as she really is.",
+        readed: "29k",
+        description: "ตัวเกมมีเนื้อเรื่องเกี่ยวกับโลกในอนาคตใกล้ดับสูญด้วยการลดลงของจำนวนประชากรอย่างรุนแรง การผจญภัยของ John ชายหนุ่มอาชีพคนงานเหมืองผู้ขยันขันแข็ง ที่ได้พบเจอกับเด็กสาวนาม Sam ณ หน่วยงานลับลึกลงไปใต้ดินแห่งหนึ่ง ทั้งคู่ที่พบเจอกันโดยไม่คาดฝันได้หลบหนีออกจากเมืองแล้วร่วมออกผจญภัยไปด้วยกัน เพื่อค้นหาความจริงอัน่าแปลกประหลาดของหญิงสาวและสัตว์ประหลาดที่ต้องการทำลายเมืองให้ย่อยยับ",
         backgroundColor: "rgba(240,240,232,0.9)",
         navTintColor: "#000"
     }
 
     const bookTheMetropolis = {
         id: 2,
-        bookName: "The Metropolis",
-        bookCover: images.theMetropolist,
-        rating: 4.1,
+        bookName: "Djmax Respect V",
+        bookCover: images.djmax_respect_v,
+        rating: 6.9,
         language: "Eng",
-        pageNo: 272,
+        pageNo: 2,
         author: "Seith Fried",
         genre: [
-            "Adventure", "Drama"
+            "Adventure", "Song"
         ],
-        readed: "13k",
+        readed: "30k",
         description: "In Metropolis, the gleaming city of tomorrow, the dream of the great American city has been achieved. But all that is about to change, unless a neurotic, rule-following bureaucrat and an irreverent, freewheeling artificial intelligence can save the city from a mysterious terrorist plot that threatens its very existence. Henry Thompson has dedicated his life to improving America's infrastructure as a proud employee of the United States Municipal Survey. So when the agency comes under attack, he dutifully accepts his unexpected mission to visit Metropolis looking for answers. But his plans to investigate quietly, quickly, and carefully are interrupted by his new partner: a day-drinking know-it-all named OWEN, who also turns out to be the projected embodiment of the agency's supercomputer. Soon, Henry and OWEN are fighting to save not only their own lives and those of the city's millions of inhabitants, but also the soul of Metropolis. The Municipalists is a thrilling, funny, and touching adventure story, a tour-de-force of imagination that trenchantly explores our relationships to the cities around us and the technologies guiding us into the future.",
         backgroundColor: "rgba(247,239,219,0.9)",
         navTintColor: "#000"
@@ -62,17 +62,102 @@ const Home = ({ navigation }) => {
 
     const bookTheTinyDragon = {
         id: 3,
-        bookName: "The Tiny Dragon",
-        bookCover: images.theTinyDragon,
-        rating: 3.5,
+        bookName: "Neon Abyss",
+        bookCover: images.neon_abyss,
+        rating: 7.1,
         language: "Eng",
-        pageNo: 110,
+        pageNo: 1,
         author: "Ana C Bouvier",
         genre: [
-            "Drama", "Adventure", "Romance"
+            "Adventure",
+        ],
+        readed: "10k",
+        description: "This sketchbook for kids is the perfect tool to improve your drawing skills! Designed to encourage kids around the world to express their uniqueness through drawing, sketching or doodling, this sketch book is filled with 110 high quality blank pages for creations. Add some fun markers, crayons, and art supplies and you have the perfect, easy gift for kids!",
+        backgroundColor: "rgba(119,77,143,0.9)",
+        navTintColor: "#FFF"
+    }
+
+    const left_4_dead_2 = {
+        id: 4,
+        bookName: "left 4 dead 2",
+        bookCover: images.left_4_dead_2,
+        rating: 7.5,
+        language: "Eng",
+        pageNo: 4,
+        author: "Steam",
+        genre: [
+            "Adventure",
         ],
         readed: "13k",
         description: "This sketchbook for kids is the perfect tool to improve your drawing skills! Designed to encourage kids around the world to express their uniqueness through drawing, sketching or doodling, this sketch book is filled with 110 high quality blank pages for creations. Add some fun markers, crayons, and art supplies and you have the perfect, easy gift for kids!",
+        backgroundColor: "rgba(119,77,143,0.9)",
+        navTintColor: "#FFF"
+    }
+
+    const tekken_7 = {
+        id: 5,
+        bookName: "Tekken 7",
+        bookCover: images.tekken_7,
+        rating: 6.5,
+        language: "Eng",
+        pageNo: 2,
+        author: "Steam",
+        genre: [
+            "Adventure",
+        ],
+        readed: "19k",
+        description: "This sketchbook for kids is the perfect tool to improve your drawing skills! Designed to encourage kids around the world to express their uniqueness through drawing, sketching or doodling, this sketch book is filled with 110 high quality blank pages for creations. Add some fun markers, crayons, and art supplies and you have the perfect, easy gift for kids!",
+        backgroundColor: "rgba(119,77,143,0.9)",
+        navTintColor: "#FFF"
+    }
+
+    const cyberpunk_2077 = {
+        id: 6,
+        bookName: "Cyberpunk 2077",
+        bookCover: images.cyberpunk_2077,
+        rating: 3.5,
+        language: "Eng",
+        pageNo: 1,
+        author: "Steam",
+        genre: [
+            "Adventure",
+        ],
+        readed: "40k",
+        description: "ไซเบอพัง2077!",
+        backgroundColor: "rgba(119,77,143,0.9)",
+        navTintColor: "#FFF"
+    }
+
+    const red_dead_redemption_2 = {
+        id: 7,
+        bookName: "Red Dead Redemption 2",
+        bookCover: images.red_dead_redemption_2,
+        rating: 8.5,
+        language: "Eng",
+        pageNo: 1,
+        author: "Steam",
+        genre: [
+            "Adventure",
+        ],
+        readed: "50k",
+        description: "ปลาๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆ",
+        backgroundColor: "rgba(119,77,143,0.9)",
+        navTintColor: "#FFF"
+    }
+
+    const stardew_valley = {
+        id: 8,
+        bookName: "Stardew Valley",
+        bookCover: images.stardew_valley,
+        rating: 7.5,
+        language: "Eng",
+        pageNo: 1,
+        author: "Steam",
+        genre: [
+            "Adventure",
+        ],
+        readed: "19k",
+        description: "ปลาๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆๆ",
         backgroundColor: "rgba(119,77,143,0.9)",
         navTintColor: "#FFF"
     }
@@ -94,34 +179,58 @@ const Home = ({ navigation }) => {
             ...bookTheTinyDragon,
             completion: "10%",
             lastRead: "1d 2h",
-
-        }
+        },
+        {
+            ...left_4_dead_2,
+            completion: "10%",
+            lastRead: "1d 2h",
+        },
+        {
+            ...tekken_7,
+            completion: "10%",
+            lastRead: "1d 2h",
+        },
+        {
+            ...cyberpunk_2077,
+            completion: "10%",
+            lastRead: "1d 2h",
+        },
+        {
+            ...red_dead_redemption_2,
+            completion: "10%",
+            lastRead: "1d 2h",
+        },
+        {
+            ...stardew_valley,
+            completion: "10%",
+            lastRead: "1d 2h",
+        },
     ]
-
+//!  -------------------------------------------------------------------------------------------------------------
     const categoriesData = [
         {
             id: 1,
-            categoryName: "Best Seller",
+            categoryName: "มาแรง",
             books: [
-                bookOtherWordsForHome, bookTheMetropolis, bookTheTinyDragon
+                bookOtherWordsForHome,bookTheMetropolis,bookTheTinyDragon,cyberpunk_2077,tekken_7
             ]
         },
         {
             id: 2,
-            categoryName: "The Latest",
+            categoryName: "ขายดี",
             books: [
-                bookTheMetropolis
+                bookTheMetropolis,tekken_7,cyberpunk_2077,red_dead_redemption_2,stardew_valley
             ]
         },
         {
             id: 3,
-            categoryName: "Coming Soon",
+            categoryName: "นิยม",
             books: [
-                bookTheTinyDragon
+                bookTheTinyDragon,red_dead_redemption_2,left_4_dead_2,tekken_7,bookTheMetropolis,stardew_valley
             ]
-        },
+        }, 
     ]
-
+//!  -------------------------------------------------------------------------------------------------------------
     const [profile, setProfile] = React.useState(profileData);
     const [myBooks, setMyBooks] = React.useState(myBooksData);
     const [categories, setCategories] = React.useState(categoriesData);
@@ -133,7 +242,7 @@ const Home = ({ navigation }) => {
                 {/* Greetings */}
                 <View style={{ flex: 1 }}>
                     <View style={{ marginRight: SIZES.padding }}>
-                        <Text style={{ ...FONTS.h3, color: COLORS.white }}>Good Morning</Text>
+                        <Text style={{ ...FONTS.h3, color: COLORS.white }}>Store</Text>
                         <Text style={{ ...FONTS.h2, color: COLORS.white }}>{profile.name}</Text>
                     </View>
                 </View>
@@ -161,7 +270,7 @@ const Home = ({ navigation }) => {
                             />
                         </View>
 
-                        <Text style={{ marginLeft: SIZES.base, color: COLORS.white, ...FONTS.body3 }}>{profile.point} point</Text>
+                        <Text style={{ marginLeft: SIZES.base, color: COLORS.white, ...FONTS.body3 }}>{profile.point} G</Text>
                     </View>
                 </TouchableOpacity>
             </View>
@@ -170,6 +279,7 @@ const Home = ({ navigation }) => {
 
     function renderButtonSection() {
         return (
+
             <View style={{ flex: 1, justifyContent: 'center', padding: SIZES.padding }}>
                 <View style={{ flexDirection: 'row', height: 70, backgroundColor: COLORS.secondary, borderRadius: SIZES.radius }}>
                     {/* Claim */}
@@ -242,7 +352,7 @@ const Home = ({ navigation }) => {
                                     height: 30
                                 }}
                             />
-                            <Text style={{ marginLeft: SIZES.base, ...FONTS.body3, color: COLORS.white }}>My Card</Text>
+                            <Text style={{ marginLeft: SIZES.base, ...FONTS.body3, color: COLORS.white }}>PayPal</Text>
                         </View>
                     </TouchableOpacity>
                 </View>
@@ -274,7 +384,7 @@ const Home = ({ navigation }) => {
                         style={{
                             width: 180,
                             height: 250,
-                            borderRadius: 20
+                            borderRadius: 15
                         }}
                     />
 
@@ -309,12 +419,12 @@ const Home = ({ navigation }) => {
             <View style={{ flex: 1 }}>
                 {/* Header */}
                 <View style={{ paddingHorizontal: SIZES.padding, flexDirection: 'row', justifyContent: 'space-between' }}>
-                    <Text style={{ ...FONTS.h2, color: COLORS.white }}>My Book</Text>
+                    <Text style={{ ...FONTS.h2, color: COLORS.white }}>ลดราคา</Text>
 
                     <TouchableOpacity
                         onPress={() => console.log("See More")}
                     >
-                        <Text style={{ ...FONTS.body3, color: COLORS.lightGray, alignSelf: 'flex-start', textDecorationLine: 'underline' }}>see more</Text>
+                        <Text style={{ ...FONTS.body3, color: COLORS.lightGray, alignSelf: 'flex-start', textDecorationLine: 'underline' }}></Text>
                     </TouchableOpacity>
                 </View>
 

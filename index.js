@@ -9,5 +9,6 @@ import {name as appName} from './app.json';
 import AppEpicGame from './EpicGame/AppEpicGame';
 import AppStroeEpic from './StroeGames/AppLayout/AppStroeEpic';
 import AppStroeMove from './AppStroeMovie/AppStroeMove';
+import MyLanuchGames from './MyLaunchGames/MyLanuchGames';
 
-AppRegistry.registerComponent(appName, () => AppStroeMove);
+AppRegistry.registerComponent(appName, () => MyLanuchGames);
