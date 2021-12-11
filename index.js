@@ -8,5 +8,6 @@ import {name as appName} from './app.json';
 
 import AppEpicGame from './EpicGame/AppEpicGame';
 import AppStroeEpic from './StroeGames/AppLayout/AppStroeEpic';
+import AppStroeMove from './AppStroeMovie/AppStroeMove';
 
-AppRegistry.registerComponent(appName, () => AppStroeEpic);
+AppRegistry.registerComponent(appName, () => AppStroeMove);
