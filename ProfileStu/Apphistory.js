@@ -151,7 +151,27 @@ export default class extends Component {
             <Image
               resizeMode="stretch"
               style={styles.image}
-              source={require('./image/img_0.jpg')}
+              source={require('./image/img_e305_2.jpg')}
+            />
+          </View>
+
+          <View
+            style={styles.slide}
+          >
+            <Image
+              resizeMode="stretch"
+              style={styles.image}
+              source={require('./image/IMG_02514.png')}
+            />
+          </View>
+
+          <View
+            style={styles.slide}
+          >
+            <Image
+              resizeMode="stretch"
+              style={styles.image}
+              source={require('./image/IMG_1105.jpg')}
             />
           </View>
    

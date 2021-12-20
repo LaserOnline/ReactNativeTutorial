@@ -9,7 +9,7 @@ export default function AppSkill()
         return(
             <View style={styles.header}>
                 <View style = {styles.BG_W}>
-                <Image source = {require('./image/skills.png')}/>
+                <Image source = {require('./image/renew.jpg')}/>
                 </View>
             </View>
         )
@@ -102,7 +102,7 @@ const styles = StyleSheet.create({
   header: {
       width: '100%',
       height: '20%',
-      backgroundColor: '#c8c8c8',
+      backgroundColor: '#000000',
       alignItems: 'center',
       justifyContent: 'center',
   },
