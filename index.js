@@ -13,5 +13,6 @@ import MyLanuchGames from './MyLaunchGames/MyLanuchGames';
 //import App from './swiper/Appswiper';
 import Component from './swiper/Appswiper_1';
 import App_props from './swiper/App_props';
+import AppProfile from './ProfileStu/AppProfile';
 
-AppRegistry.registerComponent(appName, () => App_props);
+AppRegistry.registerComponent(appName, () => AppProfile);
